@@ -14,7 +14,7 @@ strip = "debuginfo"
 lto = "thin"
 
 [dependencies]
-json = "0.12"
+json = { package = "jzon", version = "0.12.5" }
 memmap2 = "0.5"
 multimap = { version = "0.8", default-features = false }
 pico-args = { version = "0.5.0", features = ["eq-separator", "short-space-opt"]}
